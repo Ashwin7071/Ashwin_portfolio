@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 8080,
+    base: process.env.VITE_BASE_PATH || "/Ashwin7071/PortfoliMyown"
   },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
