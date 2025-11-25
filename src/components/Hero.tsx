@@ -16,7 +16,11 @@ export const Hero = () => {
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-xl animate-pulse" />
               <img
                 src="./images/Gemini_Generated_Image_d5u6apd5u6apd5u6.png"
+<<<<<<< HEAD
                 alt="Ashwin_mishra"
+=======
+                alt="Ashwin_Profile"
+>>>>>>> 37afe3e (first commit)
                 className="w-24 h-24 sm:w-32 sm:h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-background relative z-10 shadow-2xl animate-float"
                 style={{ animationDelay: "0.05s" }}
               />
